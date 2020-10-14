@@ -10,6 +10,11 @@ def line(katz_deli)
   else
     puts "The line is currently empty."
   end
+  while i < katz_deli.length do
+    line_ary.push("#{i+1}." + "#{katz_deli[i]}")
+    i += 1
+  end
+
 end
 
 
